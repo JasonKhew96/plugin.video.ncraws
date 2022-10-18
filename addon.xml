@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ncraws" version="1.0.0" name="NC-Raws" provider-name="JasonKhew96">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">NC-Raws</summary>
+    <description lang="en_GB">A frontend wrapper for NC-Raws goindex</description>
+    <disclaimer lang="en_GB">All videos are provided by NC-Raws</disclaimer>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+    <news>Initial release</news>
+  </extension>
+</addon>
